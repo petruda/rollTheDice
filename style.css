@@ -2,17 +2,22 @@
     width: 70%;
     margin: auto;
     text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    justify-content: center;
   }
   
   .dice {
     text-align: center;
     display: inline-block;
-  
+    margin: 2vh;
+    width: 30vh;
   }
   
   body {
-    background-color: #1b60d0;
-  }
+    background-color: #0b0c0c;
+}
   
   h1 {
     margin: 30px;
@@ -33,7 +38,7 @@
   }
   
   footer {
-    margin-top: 5%;
+    margin-top: 3vh;
     color: #EEEEEE;
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
