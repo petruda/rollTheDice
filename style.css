@@ -1,10 +1,11 @@
 .container {
-    width: 70%;
-    margin: auto;
+    width: 100vh;
+    margin: 5vh;
     text-align: center;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr;
+    align-items: center;
     justify-content: center;
   }
   
@@ -44,4 +45,5 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   
   }
+
   
